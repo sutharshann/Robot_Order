@@ -18,7 +18,7 @@ def order_robots_from_RobotSpareBin():
     browser.configure(
         slowmo=2000,
     )
-    # download_the_orders_file()
+    download_the_orders_file()
     open_the_intranet_robot_order_website()
     log_in()
     click_order_robot()
